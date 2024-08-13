@@ -1,0 +1,135 @@
+.contact-section {
+  display: flex; /* Flexbox for layout */
+  justify-content: center;
+  padding: 5rem; /* Padding around the section */
+  margin-bottom: 100px;
+  background-color: #f9f9f9;
+  
+}
+
+.contact-form {
+  flex: 1; /* Form takes up equal space */
+  margin-right: 2rem; /* Margin between form and image */
+  max-width: max-content;
+  
+}
+
+.contact-heading {
+  color: #000; /* Blue color */
+  padding: 2.5rem;
+}
+
+.heading-line1 {
+  color: black;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+
+.heading-line2 {
+  color: gray; /* Blue text color */
+  font-size: 1rem;
+  font-weight: bolder;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-row {
+  display: flex; /* Flexbox for rows */
+
+  padding: 0rem 2rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-input {
+  padding: 1.4rem; /* Increased padding inside fields */
+  margin-bottom: 1rem; /* Added margin for spacing between fields */
+  border: 3px solid rgb(208, 208, 208); /* Purple border */
+  background-color: white; /* White background */
+  color: #26017B; /* Purple text */
+  box-sizing: border-box; /* Ensure padding and border are included in the width and height */
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  border-radius: 10rem;
+}
+.form-input[type="email"],
+.form-input[name="phone"] {
+  width: 100% !important;
+}
+.form-input:focus::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240 / var(--tw-text-opacity)) /* #e2e8f0 */;
+}
+.form-input::placeholder {
+  color: #26017B; /* Placeholder color */
+  font-size: 20px;
+}
+.form-input:hover {
+  border: 3px solid #26017B;
+}
+
+.form-input + .form-input {
+  margin-left: 2%; /* Create gap between form inputs in the same row */
+}
+
+textarea.form-input {
+  width: 100%; /* Full width for textarea */
+  height: 10rem !important; /* Increased height for textarea */
+  border-radius: 1rem !important;
+}
+
+.submit-button {
+  padding: 0.5rem 2rem; /* Adjusted padding */
+  background-color: white; /* White background */
+  color: #26017B; /* Text color */
+  border: 3px solid #26017B; /* Border */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 999px; /* Border radius */
+  font-size: 1.9rem; /* Adjusted font size */
+  font-weight: bold; /* Bold text */
+  text-align: center; /* Center the text */
+  width:80%;
+  margin: 2rem;
+  font-family: "Inter", sans-serif; /* Set font-family */
+  
+}
+
+.submit-button:hover {
+  background-color: #26017B;
+  color: white;
+}
+
+.contact-image {
+  flex: 1; /* Image takes up equal space */
+}
+
+.contact-img {
+  width: 62rem;
+  height: auto;
+}
+@media not all and (min-width: 768px) {
+  .contact-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+  }
+  .contact-image{
+    display: none;
+  }
+  .contact-form{
+    max-width: 100vw;
+    margin: 0;
+  }
+  .form-row{
+    display: flex;
+    flex-direction: column;
+  }
+  input{
+    width: 100%;
+  }
+}

@@ -1,0 +1,183 @@
+[
+    {
+      "feature": "Feature 1",
+      "silver": true,
+      "gold": true,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 2",
+      "silver": false,
+      "gold": true,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 3",
+      "silver": false,
+      "gold": false,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 4",
+      "silver": true,
+      "gold": true,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 5",
+      "silver": false,
+      "gold": true,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 6",
+      "silver": false,
+      "gold": false,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 7",
+      "silver": true,
+      "gold": true,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 8",
+      "silver": false,
+      "gold": true,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 9",
+      "silver": false,
+      "gold": false,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 10",
+      "silver": true,
+      "gold": true,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 11",
+      "silver": false,
+      "gold": true,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 12",
+      "silver": false,
+      "gold": false,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 13",
+      "silver": true,
+      "gold": true,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 14",
+      "silver": false,
+      "gold": true,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 15",
+      "silver": false,
+      "gold": false,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 16",
+      "silver": true,
+      "gold": true,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 17",
+      "silver": false,
+      "gold": true,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 18",
+      "silver": false,
+      "gold": false,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 19",
+      "silver": true,
+      "gold": true,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 20",
+      "silver": false,
+      "gold": true,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 21",
+      "silver": false,
+      "gold": false,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 22",
+      "silver": true,
+      "gold": true,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 23",
+      "silver": false,
+      "gold": true,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 24",
+      "silver": false,
+      "gold": false,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 25",
+      "silver": true,
+      "gold": true,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 26",
+      "silver": false,
+      "gold": true,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 27",
+      "silver": false,
+      "gold": false,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 28",
+      "silver": true,
+      "gold": true,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 29",
+      "silver": false,
+      "gold": true,
+      "platinum": true
+    },
+    {
+      "feature": "Feature 30",
+      "silver": false,
+      "gold": false,
+      "platinum": true
+    }
+  ]
+  

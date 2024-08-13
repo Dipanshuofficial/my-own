@@ -1,0 +1,268 @@
+/* pricingCards.css */
+
+.pricing-cards-section {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.pricing-heading {
+  color: #000;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 0.1rem;
+  font-family: "Inter", sans-serif;
+}
+
+.pricing-description {
+  color: #161616;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 5rem;
+}
+
+.pricing-controls {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.ai-plans {
+  background: #ffffff;
+  border: 6px solid #376bf0;
+  color: #376bf0;
+  padding: 0.5rem 1rem;
+  border-radius: 60px;
+  cursor: pointer;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.ailogo {
+  width: 30px;
+  height: auto;
+}
+
+.btn-content {
+  font-size: 13px;
+}
+/* Useless sheet */
+.cards {
+  display: flex;
+  align-self: flex-end;
+  gap: 4rem;
+}
+
+.cards .title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card {
+  padding: 1rem;
+  border: 1px solid #376bf0;
+  border-radius: 10px;
+  text-align: left;
+  flex: 1;
+  max-width: 350px;
+  position: relative;
+}
+
+.silver {
+  background: #fff; /* Transparent silver */
+  color: #376bf0;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.gold {
+  background: #dbf6ff;
+  color: #376bf0;
+  transform: scale(1.1);
+  position: relative;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.platinum {
+  background: #fff; /* Transparent platinum */
+  color: #376bf0;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.card-button {
+  background: #fff;
+  color: #376bf0;
+  border: 2px solid #376bf0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1.3rem;
+  display: block;
+  margin: 1rem auto;
+  font-weight: bold;
+}
+
+.card.gold .card-button {
+  background: #dbf6ff;
+}
+
+.most-popular {
+  background: #007acc;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  top: -1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+}
+
+.pricing {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1px;
+}
+
+.cancelled-price {
+  text-decoration: line-through;
+  color: #888;
+  font-size: medium;
+}
+
+.save-box {
+  background: #376bf0;
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.real-price {
+  color: #007acc;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.card-divider {
+  border: none;
+  height: 1px;
+  background: #abe9ff;
+  margin: 1rem 0;
+}
+/* Useless sheet ends */
+.plan-contents {
+  list-style-type: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.plan-contents li {
+  margin-bottom: 0.5rem;
+}
+
+.payment-terms {
+  text-align: center;
+  margin-top: 4rem;
+  color: #000;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.extra-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.extra-content-left {
+  flex: 1;
+  padding-top: 6rem;
+  padding-left: 25rem; /* Increase this value to increase the gap */
+}
+
+.extra-content-left img {
+  width: 100%;
+  height: 100%;
+}
+
+.extra-content-right {
+  flex: 2;
+  padding-left: 6rem;
+}
+
+.extra-content-right h3 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.extra-content-right p {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+/* Existing styles */
+
+.features-table {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features-table table {
+  width: 80%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.features-table th,
+.features-table td {
+  padding: 1rem;
+}
+
+.features-table th {
+  background-color: #f2f2f2;
+}
+
+.features-table td {
+  background-color: #fff;
+}
+
+.toggle-features-button {
+  margin-top: 1rem;
+  background-color: none;
+  color: #376bf0;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+@media not all and (min-width: 768px) {
+  .cards{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+  .pricing-heading{
+    font-size: 2rem;
+  }
+  .pricing-description{
+    font-size: 1.2rem;
+    color: #161616;
+  }
+}

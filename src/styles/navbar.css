@@ -1,0 +1,131 @@
+.navbar {
+  position: sticky;
+  top: 0; /* Stick to the top of the page */
+  z-index: 1000; /* Ensure it stays above other elements */
+  background-color: #f9f9f9; /* Ensure the background is solid */
+  padding: 1rem; /* Adjust padding as needed */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  color: #26017B; /* Deep Purple */
+  text-decoration: none;
+  font-weight: 650;
+  transition: color 0.3s;
+  font-size: 1rem; /* Increased font size */
+}
+
+.nav-link:hover {
+  color: #376bf0;
+}
+
+.navbar-logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.logo-fuzz {
+  color: #26017B; /* Deep Purple */
+}
+
+.logo-ads {
+  color: #376bf0; /* Blue */
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+}
+
+.navbar-menu li a {
+  color: #26017B; /* Deep Purple */
+  text-decoration: none;
+  font-weight: 650;
+  transition: color 0.3s;
+  font-size: 2rem; /* Increased font size */
+}
+.ham {
+  display: none;
+}
+@media not all and (min-width: 768px) {
+  .navbar-container {
+    flex-direction: row;
+    gap: 2rem;
+    padding: 0.5rem;
+    align-items: start;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .navbar-menu {
+    font-size: 1.25rem /* 20px */;
+    line-height: 1.75rem /* 28px */;
+    flex-direction: column;
+    position: absolute;
+    padding: 5rem 2rem !important;
+    z-index: -1;
+    background-color: #f9f9f9;
+  }
+  .navbar-buttons {
+    flex-direction: row;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    margin-right: 1rem;
+  }
+  .login-button {
+    font-size: 1.2rem !important;
+  }
+  .signup-button {
+    font-size: 1.2rem !important;
+    padding: 0.5rem 1rem !important ;
+  }
+  .ham {
+    display: flex;
+    height: 2rem;
+    width: 2rem;
+  }
+}
+.navbar-menu li a:hover {
+  color: #376bf0; /* Blue */
+}
+
+.navbar-buttons {
+  display: flex;
+  gap: 2rem;
+}
+
+.login-button {
+  background: transparent;
+  border: none;
+  color: #376bf0; /* Blue */
+  cursor: pointer;
+  font-weight: 500;
+  transition: color 0.3s;
+  font-size: 1.35rem; /* Increased font size */
+}
+
+.login-button:hover {
+  color: #26017B; /* Slightly darker blue for hover effect */
+}
+
+.signup-button {
+  background: #376bf0; /* Blue */
+  border: none;
+  color: #fff;
+  padding: 0.5rem 1.2rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s;
+  font-size: 1.35rem; /* Increased font size */
+}
+
+.signup-button:hover {
+  background: #26017B; /* Slightly darker blue for hover effect */
+}
